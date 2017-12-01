@@ -1,5 +1,5 @@
 <?php
-//Title +dueDate #category +duration @context
+//Title +dueDate #category ~duration @context
 
 echo "Enter a task:\n";
 $handle = fopen ("php://stdin","r");
