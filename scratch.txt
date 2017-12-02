@@ -1,0 +1,56 @@
+Brain Dump
+clean fridge
+we haven't met in forever for ward mission
+6.8 online
+6.8 written
+ndfs assignment 4
+I'm getting bored with desktop context
+
+Weed out already settled things to get to organizing thoughts
+What is it?
+Is it actionable?
+Is this well-defined: task, event, note/reference, or more abstract?
+clean fridge [yes]
+we haven't met in forever for ward mission [yes]
+6.8 online [yes]
+6.8 written [yes]
+ndfs assignment 4 [task]
+I'm getting bored with desktop context project [yes]
+into the woods tonight [yes]
+
+Tasks
+What else do you know about this task?
+When should it be done?
+How long it will take?
+What is it for?
+What context do I require to do it?
+
+clean fridge +this year ~1.5 hr #home @home
+6.8 online +tomorrow ~1 hr #school @laptop
+6.8 written +monday ~1 hr #school @math313 textbook
+ndfs assignment 4 +today ~2 hr #school @laptop
+
+Events
+What's it called?
+When is it?
+What calendar does it belong on?
+
+into the woods +tonight 7:30 pm ~2.5 hr #events
+
+Abstract
+Does this matter?
+Should you do something about it?
+What would be the outcome of resolving this thought?
+
+We start meeting regularly again and are caught up on status of ward mission
+[Save as project]
+
+What's the next thing you need to do to move towards this outcome?
+
+Ask Devon when our next meeting is
+[Add as task tied to aforementioned project]
+
+I'm getting bored with desktop context project
+I'm happy with the project I'm working on
+
+decide if I can afford to do something else
