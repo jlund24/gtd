@@ -1,0 +1,26 @@
+{
+  "name": "gtd",
+  "version": "1.0.0",
+  "description": "## Server Info",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlund24/f\gtd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlund24/gtd/issues"
+  },
+  "homepage": "https://github.com/jlund24/gtd#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
