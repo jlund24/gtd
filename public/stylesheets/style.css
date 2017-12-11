@@ -14,6 +14,14 @@
     outline : none;
 }
 
+.next-button {
+	margin-left: 20px;
+	background-color : lightgray;
+	border-style: none;
+	padding: 10px;
+	border-radius:5px;
+}
+
 #main {
     display : block;
     margin-left : auto;
