@@ -1,8 +1,19 @@
 extends layout
 
+append scripts
+	script(type='text/javascript' src='../scripts/landing.js')
 append main
-	div
-		h1(class='main-instruction') What's on your mind?
-		input(type='text' class='main-text-input')
-	div
-		button(class='next-button') Move On
+	div(class="half-panel")
+		div(class="input-panel")
+			h1(class='main-instruction') What's on your mind?
+			textarea(class='main-text-input' rows='5' cols='50' id="text-input")
+			div
+				button(class='next-button') Move On
+		div(class="output-panel")
+			h1(class='main-instruction') Task Info
+			div(id='task-title')
+			div(id='task-due-date')
+			div(id='task-duration')
+			div(id='task-category')
+			div(id='task-context')
+			
