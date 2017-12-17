@@ -4,6 +4,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var bodyParser = require('body-parser');
 var mongo = require('mongodb');
+var markdown = require( "markdown" ).markdown;
 var routes = require('./routes/index');
 var app = express();
 

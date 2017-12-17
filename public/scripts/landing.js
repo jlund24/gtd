@@ -1,3 +1,5 @@
+
+
 $(document).ready(function() {
 	$("#text-input").keyup(function() {
 		var text = $('#text-input').val();
@@ -11,12 +13,24 @@ $(document).ready(function() {
 			}
 			else
 			{
-				var firstChar = match.substring(0,1);
-				console.log(firstChar);
+				var firstChar = match.slice(0,1);
+				var value = $.trim(match.slice(1));
 				switch (firstChar)
 				{
 					case '+':
-					$('task-due-date').text($.trim(match));
+						$('#task-due-date').text(value);
+						break;
+					case '~':
+						$('#task-duration').text(value);
+						break;
+					case '#':
+						$('#task-category').text(value);
+						break;
+					case '@':
+						$('#task-context').text(value);
+						break;
+					default:
+						break;
 				}
 			}
 

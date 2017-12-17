@@ -2,6 +2,7 @@ var express = require('express');
 var https = require('https');
 var router = express.Router();
 var MongoClient = require('mongodb').MongoClient;
+var markdown = require( "markdown" ).markdown;
 var url = "mongodb://localhost:27017/mydb";
 
 // MongoClient.connect(url, function(err, db) {
