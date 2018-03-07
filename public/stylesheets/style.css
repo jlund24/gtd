@@ -20,7 +20,7 @@
     border-width: 2px;
     border-color : lightgray;
     width : 75%;
-	height: 500px;
+	height: auto;
     padding : 10px;
     outline : none;
 	text-align: left;

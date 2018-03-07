@@ -11,11 +11,11 @@ function clearFields()
 
 $(document).ready(function() {
 
-	$("#text-input").keyup(function() {
-		var text = $('#text-input').val();
-		console.log(markdown.toHTML(text));
-		$('#output').append(markdown.toHTML(text));
-	});
+	// $("#text-input").keyup(function() {
+	// 	var text = $('#text-input').val();
+	// 	console.log(markdown.toHTML(text));
+	// 	$('#output').append(markdown.toHTML(text));
+	// });
 	// $("#text-input").keyup(function() {
 	// 	var text = $('#text-input').val();
 	// 	var regex = /([^+#@~]*)(?:(\+[^+#@~]*)|(\~[^+~@#]*)|(\#[^~#+@]*)|(\@[^~#+@]*))*/;
@@ -24,7 +24,7 @@ $(document).ready(function() {
 	// 	result.forEach(function(match) {
 	// 		if (match == null)
 	// 		{
-	// 			//clearFields();
+	// 			clearFields();
 	// 		}
 	// 		else
 	// 		{
@@ -48,9 +48,9 @@ $(document).ready(function() {
 	// 					break;
 	// 			}
 	// 		}
-    //
+    
 	// 	});
-    //
+    
 	// });
 
 
